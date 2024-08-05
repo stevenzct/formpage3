@@ -513,6 +513,32 @@ body.desktop .q-focusable, body.desktop .q-hoverable, body.desktop .q-manual-foc
     background: linear-gradient(90deg, rgb(209 209 209 / 0%) 0%, rgb(225 199 199 / 30%) 49.89%, rgb(99 99 99 / 0%) 100%) ;
 } */
 
+
+.q-stepper--contracted .q-stepper__tab:not(:last-child) .q-stepper__dot:after {
+  
+  background: #1e2f4d;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.30) 49.89%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+
+.q-stepper--horizontal .q-stepper__dot:before {
+ 
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.30) 49.89%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.q-stepper--contracted .q-stepper__tab:not(:last-child) .q-stepper__dot:after {
+    height: 3px;
+}
+
+.q-stepper--horizontal .q-stepper__dot:before {
+    height: 3px !important;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.30) 49.89%, rgba(255, 255, 255, 0.00) 100%) !important;
+}
+.q-stepper--horizontal .q-stepper__dot:after {
+    height: 3px !important;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.30) 49.89%, rgba(255, 255, 255, 0.00) 100%);
+}
+
 .subheadline-referral {
   color: #959595;
   font-family: Inter;
